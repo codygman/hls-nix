@@ -1,4 +1,4 @@
-{ source ? import ./source, tag ? "master", version ? "8.8.3" }:
+{ source ? import ./source, tag ? "master", version ? "8.8.4" }:
 let
   haskellNix = import source.haskell-nix { };
   l = file: builtins.fromJSON (builtins.readFile file);
